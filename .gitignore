@@ -1,0 +1,5 @@
+terraform_key_pair.pem
+terraform_key_pair.ppk
+terraform.tfstate
+.terraform.lock.hcl
+terraform_log.txt
