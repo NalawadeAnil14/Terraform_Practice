@@ -5,4 +5,7 @@ provider "aws" {
 resource "aws_instance" "terraform_first_instance" {
   ami = "ami-00c39f71452c08778"
   instance_type = "t2.micro" 
+  tags = {
+     Name = "terraform_cloud_ec2"
+  }
 }
