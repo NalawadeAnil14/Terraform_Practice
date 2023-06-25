@@ -7,5 +7,6 @@ resource "aws_instance" "terraform_first_instance" {
   instance_type = "t2.micro" 
   tags = {
      Name = "terraform_cloud_ec2"
+     Purpose = "To see terraform cloud work"
   }
 }
